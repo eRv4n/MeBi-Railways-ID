@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.loc_id206": {
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "textures": ["texture.default"]
+        }
+    }
+}

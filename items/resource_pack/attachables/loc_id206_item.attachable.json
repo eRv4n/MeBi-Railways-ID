@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {    
+            "identifier": "mbr:loc_id206_item",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/loc_id206/texture",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.loc_id206_item"
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ],
+            "animations": {
+				"first_person_hold": "animation.loc_id206_item.first_person",
+				"third_person_hold": "animation.loc_id206_item.third_person"
+			},
+            "scripts": {
+				"animate": [
+					{
+						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"third_person_hold": "!c.is_first_person"
+					}
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "mbr_block_id",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "stone_rail": {
+            "textures": "textures/block/rails/stone_rail"
+        }
+    }
+}

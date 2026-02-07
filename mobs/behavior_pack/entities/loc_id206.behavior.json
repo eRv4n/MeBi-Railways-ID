@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mbr:loc_id206",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+        "components": {
+            "minecraft:health": {
+                "value": 100,
+                "max": 100
+            },
+            "minecraft:collision_box": {
+                "width": 3.0,
+                "height": 2.5
+            },
+            "minecraft:physics": {},
+            "minecraft:rideable": {},
+            "minecraft:navigation.generic": {},
+            "minecraft:movement.basic": {},
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:timer": {
+                "time": 1,
+                "time_down_event": {
+                    "event": "mbr:loc_tick"
+                }
+            }
+
+        },
+        "events": {
+            "mbr:loc_tick": {
+                "trigger": {
+                "event": "mbr:locomotive_tick"
+                }
+            }
+        }
+    }
+}

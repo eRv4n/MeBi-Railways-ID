@@ -1,0 +1,8 @@
+{
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "loc_id206_item": {
+            "textures": "textures/items/loc_id206"
+        }
+    }
+}

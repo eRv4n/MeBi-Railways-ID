@@ -1,0 +1,57 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "MBR | Minecraft Bedrock Railways (Behavior)",
+        "description": "A Minecraft Bedrock add-on by eRvnnnn",
+        "uuid": "705bfb97-84da-491a-9884-64a134436729",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "27a57915-6f65-4212-90a4-8fc0d03c5518",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "733a17e2-c346-4827-a293-d07205f65741",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b3f5e1d2-3c4a-4f5b-8e2d-123456789abc",
+            "version": [
+                1,
+                0,
+                2
+            ]
+        }, {
+            "module_name": "@minecraft/server",
+            "version": "2.3.0"
+        }
+    ],
+    "metadata": {
+        "authors": ["eRvnnnn"],
+        "product_type": "addon"
+    }
+}

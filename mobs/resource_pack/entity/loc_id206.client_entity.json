@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mbr:loc_id206",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/loc_id206/texture"
+            },
+            "geometry": {
+                "default": "geometry.loc_id206"
+            },
+            "render_controllers": ["controller.render.loc_id206"],
+            "spawn_egg": {
+                "overlay_color": "#33ff",
+                "base_color": "#9fb3b3"
+            }
+        }
+    }
+}
